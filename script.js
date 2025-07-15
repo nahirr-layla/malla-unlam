@@ -1,18 +1,18 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f9f9f9;
+  background-color: #f0f4f8;
   margin: 0;
   padding: 20px;
-  color: #333;
+  color: #222;
 }
 
 header {
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 h1 {
-  color: #2c3e50;
+  color: #005a87;
 }
 
 .anio {
@@ -20,57 +20,57 @@ h1 {
 }
 
 .anio h2 {
-  background-color: #2c3e50;
+  background-color: #005a87;
   color: white;
-  padding: 10px;
-  margin: 0 0 15px 0;
-  border-radius: 5px;
+  padding: 10px 15px;
+  border-radius: 6px;
+  margin-bottom: 15px;
 }
 
 .materia {
   display: inline-block;
-  background-color: #ffffff;
-  border: 2px solid #2c3e50;
+  background-color: white;
+  border: 2px solid #005a87;
   border-radius: 8px;
   padding: 15px 20px;
   margin: 5px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
-  max-width: 200px;
+  max-width: 210px;
   text-align: center;
   font-weight: bold;
+  transition: background-color 0.3s ease;
 }
 
 .materia:hover {
-  background-color: #d0e6f7;
+  background-color: #c9e6f6;
 }
 
 .modal {
   display: none;
   position: fixed;
-  z-index: 100;
+  z-index: 1000;
   left: 0; top: 0;
   width: 100%; height: 100%;
   background-color: rgba(0,0,0,0.5);
 }
 
 .modal-content {
-  background-color: #fff;
-  margin: 15% auto;
-  padding: 20px 30px;
-  border-radius: 10px;
+  background: white;
+  margin: 12% auto;
+  padding: 25px 30px;
   width: 90%;
-  max-width: 500px;
-  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+  max-width: 520px;
+  border-radius: 12px;
   position: relative;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.3);
 }
 
 #close-btn {
   position: absolute;
-  top: 10px; right: 15px;
+  top: 12px;
+  right: 18px;
   font-size: 28px;
   font-weight: bold;
-  color: #2c3e50;
   cursor: pointer;
+  color: #005a87;
 }
-
